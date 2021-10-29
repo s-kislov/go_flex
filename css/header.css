@@ -21,6 +21,7 @@
 .game-over__header-button{
   background-color: transparent;
   font-weight: 700;
+  line-height: 30px;
   color: #fff;
   border: 3px solid #CD06FF;
   border-radius: 10px;

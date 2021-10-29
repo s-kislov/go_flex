@@ -1,0 +1,33 @@
+.container__all-in {
+  margin-bottom: 100px;
+}
+
+.game-over__all-in-title{
+  padding: 0 150px;
+  font-family: "Arial";
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 41px;
+}
+
+.game-over__all-in-list{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    
+}
+
+.game-over__all-in-card-text{
+  width: 300px;
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 28px;
+  transform: translate(40px, -66px);
+}
+
+

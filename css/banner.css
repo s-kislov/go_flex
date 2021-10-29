@@ -3,6 +3,7 @@ container__main-banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .container__main-banner {
@@ -41,6 +42,7 @@ container__main-banner {
 
 .game-over__main-banner-subtitle {
   font-size: 1.4em;
+  line-height: 50px;
   transform: translate(200px, -29px);
 }
 
@@ -56,6 +58,7 @@ container__main-banner {
   font-family: "Arial-black", serif;
   font-weight: 900;
   font-size: 5em;
+  line-height: 141.02px;
   color: #CD06FF;
   
 }
@@ -63,11 +66,13 @@ container__main-banner {
 .game-over__main-banner-benefits-text-up_fz80{
   font-weight: 700;
   font-size: 4em;
+  line-height: 91.99px;
   text-transform: uppercase;
 }
 
 .game-over__main-banner-benefits-text-low{
   font-size: 1.4em;
+  line-height: 32.2px;
   width: 180px;
   margin-bottom: 170px;
 }
@@ -79,6 +84,7 @@ container__main-banner {
   border-radius: 10px;
   font-size: 1.3em;
   font-weight: 700;
+  line-height: 30px;
   padding: 25px 69px;
   width: 420px;
 }
