@@ -1,0 +1,28 @@
+.container-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1em;
+  
+}
+
+.game-over__menu{
+  display: flex;
+  width: 587px;
+  justify-content: space-between;
+  text-transform: uppercase;
+  
+}
+
+.game-over__menu-link{
+  line-height: 50px;
+}
+
+.game-over__header-button{
+  background-color: transparent;
+  font-weight: 700;
+  color: #fff;
+  border: 3px solid #CD06FF;
+  border-radius: 10px;
+  padding: 12px 32px;
+}
