@@ -18,6 +18,10 @@
   margin-bottom: 50px;
 }
 
+.game-over__review-block:last-child {
+  margin-bottom: 0;
+}
+
 .game-over__review-block-author {
   
   margin-right: 20px;
@@ -35,5 +39,6 @@
 
 .game-over__review-block-text {
   width: 680px;
+  height: 150px;
   transform: translateY(50px);
 }
