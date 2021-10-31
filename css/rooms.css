@@ -1,14 +1,9 @@
-.container__all-in {
+.game-over__rooms {
   padding: 0;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 
-.game-over__all-in {
-  padding-bottom: 0;
-}
-
-.game-over__all-in-title{
-  padding: 0 150px;
+.game-over__rooms-title{
   font-family: "Arial";
   font-weight: 700;
   line-height: 50px;
@@ -17,24 +12,23 @@
   text-transform: uppercase;
   margin-bottom: 41px;
 }
-
-.game-over__all-in-list{
+.game-over__rooms-list{
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 496px;
-    
+  height: 738px;
 }
 
-.game-over__all-in-card-text{
+.game-over__rooms-card-text{
   position: absolute;
-  width: 300px;
+  width: 252px;
   font-family: "Arial";
   font-weight: 700;
-  font-size: 1em;
-  line-height: 28px;
-  transform: translate(40px, -66px);
+  font-size: 3.5em;
+  text-align: center;
+  line-height: 80px;
+  text-transform: uppercase;
+  transform: translate(160px, -270px);
 }
-
 
