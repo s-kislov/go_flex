@@ -1,0 +1,74 @@
+.game-over__about-title {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.game-over__about-content{
+  display: flex;
+}
+
+.game-over__about-content-image {
+  width: 700px;
+}
+
+.game-over__about-content-text {
+  width: 500px;
+}
+
+.game-over__about-content-image-item {
+  margin: -3px;
+}
+
+.game-over__about-content-text-item {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.game-over__about-content-text-item-quote{
+  position: relative;
+  font-size: 2.2em;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.game-over__about-content-text-item-quote::before{
+  content: "“ ";
+  position: absolute;
+  font-size: 2.2em;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #6C0287;
+  transform: translate(-43px, 7px);
+}
+
+.game-over__about-content-text-item-quote::after{
+  content: " ”";
+  position: absolute;
+  font-size: 2.2em;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #6C0287;
+  transform: translate(10px, 20px);
+}
+
+.game-over__about-content-text-item-arkady{
+  display: flex;
+  position: relative;
+  transform: translateX(120px);
+}
+
+.game-over__about-content-text-item-arkady-image {
+  margin-right: 30px;
+}
+
+.game-over__about-content-text-item-arkady-text{
+  width: 250px;
+  line-height: 28px;
+}
