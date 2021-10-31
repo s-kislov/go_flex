@@ -1,0 +1,39 @@
+.container-review {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.game-over__review-title{
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.game-over__review-block {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.game-over__review-block-author {
+  
+  margin-right: 20px;
+}
+
+.game-over__review-block-author-image {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.game-over__review-block-author-name {
+  display: flex;
+  justify-content: center;
+}
+
+.game-over__review-block-text {
+  width: 680px;
+  transform: translateY(50px);
+}
