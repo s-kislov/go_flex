@@ -57,6 +57,20 @@
   color: #000000;
 }
 
+.game-over__booking-form-choose-room-item:hover {
+  background-color: #EADEED;
+  border: 3px solid #640AA3;
+}
+
+.game-over__booking-form-choose-room-item:active {
+  background-color:#EADEED;
+}
+
+.game-over__booking-form-choose-room-item:focus {
+  background-color: #FFFFFF;
+  border: 3px solid #640AA3;
+}
+
 
 .game-over__booking-form-choose-room-name[type=radio] {
   display: none;
@@ -138,4 +152,14 @@
 
 .game-over__booking-form-choose-block-wrap_button{
   justify-content: flex-end;
+}
+
+.game-over__booking-form-date-choose-item:hover {
+  background-color: #fff;
+}
+
+.game-over__booking-form-date-choose-item:focus {
+  background: #FFFFFF;
+  border: 2px solid #CD06FF;
+  outline: none;
 }

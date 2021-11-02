@@ -79,3 +79,64 @@
   display: flex;
   justify-content: space-between;
 }
+
+
+.game-over__contacts-social-insta>a>img:hover {
+  background: #EADEED;
+  border-radius: 50%;
+}
+
+.game-over__contacts-social-insta>a>img:active {
+  background-color: #CD06FF;
+}
+
+.game-over__contacts-social-insta>a>img:focus {
+  background: #EADEED;
+  outline: none;
+  border: 1px solid #CD06FF;
+}
+
+.game-over__contacts-social-vk>a>img:hover {
+  background: #EADEED;
+  border-radius: 50%;
+}
+
+.game-over__contacts-social-vk>a>img:active {
+  background-color: #CD06FF;
+}
+
+.game-over__contacts-social-vk>a>img:focus {
+  background: #EADEED;
+  outline: none;
+  border: 1px solid #CD06FF;
+}
+
+.game-over__contacts-social-fb>a>img:hover {
+  background: #EADEED;
+  border-radius: 50%;
+}
+
+.game-over__contacts-social-fb>a>img:active {
+  background-color: #CD06FF;
+}
+
+.game-over__contacts-social-fb>a>img:focus {
+  background: #EADEED;
+  outline: none;
+  border: 1px solid #CD06FF;
+}
+
+.game-over__contacts-social-tg>a>img:hover {
+  background: #EADEED;
+  border-radius: 50%;
+}
+
+.game-over__contacts-social-tg>a>img:active {
+  background-color: #CD06FF;
+}
+
+.game-over__contacts-social-tg>a>img:focus {
+  background: #EADEED;
+  outline: none;
+  border: 1px solid #CD06FF;
+}

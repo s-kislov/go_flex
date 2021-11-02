@@ -514,7 +514,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="game-over__footer">
     <section class="game-over__contacts">
       <div class="container">
         <div class="container__contacts">
@@ -543,13 +543,13 @@
                 <li class="game-over__contacts-social-insta">
                   <a href="http://instagram.com" target="_blank"><img src="img/entypo-social_instagram-with-circle.svg" alt=""></a>
                 </li>
-                <li class="game-over__contacts-social-item">
+                <li class="game-over__contacts-social-vk">
                   <a href="http://vk.com" target="_blank"><img src="img/entypo-social_vk-with-circle.svg" alt=""></a>
                 </li>
-                <li class="game-over__contacts-social-item">
+                <li class="game-over__contacts-social-fb">
                   <a href="http://facebook.com" target="_blank"><img src="img/akar-icons_facebook-fill.svg" alt=""></a>
                 </li>
-                <li class="game-over__contacts-social-item">
+                <li class="game-over__contacts-social-tg">
                   <a href="http://telegram.com" target="_blank"><img src="img/bi_telegram.svg" alt=""></a>
                 </li>
               </ul>
@@ -563,6 +563,14 @@
       </div>
     </section>
   </footer>
+
+  <script>
+    document.addEventListener('click', event => {
+      if (event.target.matches('button')) {
+          event.target.focus()
+      }
+    })
+  </script>
 </body>
 
 </html>
