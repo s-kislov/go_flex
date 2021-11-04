@@ -37,4 +37,7 @@
   transform: translate(40px, -66px);
 }
 
+.game-over__all-in-item:hover {
+  transform: scale(1.1, 1.1);
+}
 

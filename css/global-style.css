@@ -9,6 +9,12 @@ html {
   box-sizing: border-box;
 }
 
+*:hover,
+*:active,
+*:focus{
+  transition-duration: 200ms;
+}
+
 body {
   min-width: 320px;
   min-height: 100vh;
