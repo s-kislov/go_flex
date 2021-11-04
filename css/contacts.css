@@ -140,3 +140,31 @@
   outline: none;
   border: 1px solid #CD06FF;
 }
+
+.game-over__contacts-social-insta>a:hover {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #CD06FF;
+  display: flex;
+}
+
+.game-over__contacts-social-vk>a:hover {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #CD06FF;
+  display: flex;  
+}
+
+.game-over__contacts-social-fb>a:hover {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #CD06FF;
+  display: flex;
+}
+
+.game-over__contacts-social-tg>a:hover {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #CD06FF;
+  display: flex;
+}

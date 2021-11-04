@@ -18,6 +18,10 @@
   line-height: 50px;
 }
 
+.game-over__menu-link:hover {
+  color:#CD06FF;
+}
+
 .game-over__header-button{
   background-color: transparent;
   font-weight: 700;
