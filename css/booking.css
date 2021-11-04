@@ -163,3 +163,43 @@
   border: 2px solid #CD06FF;
   outline: none;
 }
+
+.game-over__booking-form-set-board-game-name {
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  -o-appearance:none;
+  height: 27px;
+  width: 27px;
+  background: #ffffff;
+}
+
+.game-over__booking-form-set-board-game-name:focus {
+  border: 1px solid #CD06FF;
+}
+
+.game-over__booking-form-set-console-name {
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  -o-appearance:none;
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.game-over__booking-form-set-console-name:focus {
+  border: 1px solid #CD06FF;
+}
+
+.game-over__booking-form-set-add-name {
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  -o-appearance:none;
+  height: 27px;
+  width: 27px;
+  background: #ffffff;
+}
+
+.game-over__booking-form-set-add-name:focus {
+  border: 1px solid #CD06FF;
+}
