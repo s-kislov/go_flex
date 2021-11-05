@@ -88,12 +88,12 @@
 
 .game-over__contacts-social-insta>a>img:active {
   background-color: #CD06FF;
+  border: 1px solid #CD06FF;
 }
 
 .game-over__contacts-social-insta>a>img:focus {
   background: #EADEED;
   outline: none;
-  border: 1px solid #CD06FF;
 }
 
 .game-over__contacts-social-vk>a>img:hover {
@@ -103,6 +103,7 @@
 
 .game-over__contacts-social-vk>a>img:active {
   background-color: #CD06FF;
+  border: 1px solid #CD06FF;
 }
 
 .game-over__contacts-social-vk>a>img:focus {
@@ -118,6 +119,7 @@
 
 .game-over__contacts-social-fb>a>img:active {
   background-color: #CD06FF;
+  border: 1px solid #CD06FF;
 }
 
 .game-over__contacts-social-fb>a>img:focus {
@@ -133,6 +135,7 @@
 
 .game-over__contacts-social-tg>a>img:active {
   background-color: #CD06FF;
+  border: 1px solid #CD06FF;
 }
 
 .game-over__contacts-social-tg>a>img:focus {
@@ -144,27 +147,23 @@
 .game-over__contacts-social-insta>a:hover {
   width: 50px;
   height: 50px;
-  border: 1px solid #CD06FF;
   display: flex;
 }
 
 .game-over__contacts-social-vk>a:hover {
   width: 50px;
   height: 50px;
-  border: 1px solid #CD06FF;
   display: flex;  
 }
 
 .game-over__contacts-social-fb>a:hover {
   width: 50px;
   height: 50px;
-  border: 1px solid #CD06FF;
   display: flex;
 }
 
 .game-over__contacts-social-tg>a:hover {
   width: 50px;
   height: 50px;
-  border: 1px solid #CD06FF;
   display: flex;
 }

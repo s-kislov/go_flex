@@ -191,15 +191,17 @@
   border: 1px solid #CD06FF;
 }
 
-.game-over__booking-form-set-add-name {
-  -moz-appearance:none;
-  -webkit-appearance:none;
-  -o-appearance:none;
-  height: 27px;
-  width: 27px;
-  background: #ffffff;
+.game-over__booking-form-set-board-game-name {
+  outline: none;
+  position: relative;
 }
 
-.game-over__booking-form-set-add-name:focus {
+.game-over__booking-form-set-board-game-name:focus::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 33px;
+  height: 33px;
   border: 1px solid #CD06FF;
 }

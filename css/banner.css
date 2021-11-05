@@ -124,7 +124,6 @@ container__main-banner {
   width: 98px;
   height: 98px;
   display: flex;
-  border: 1px solid #CD06FF;
   background-image: url("../img/down-hover.svg");
   background-repeat: no-repeat;
   
@@ -134,6 +133,7 @@ container__main-banner {
   width: 98px;
   height: 98px;
   display: flex;
+  border: 1px solid #CD06FF;
   background-image: url("../img/down-active.svg");
   background-repeat: no-repeat;
   
