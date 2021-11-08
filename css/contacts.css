@@ -54,6 +54,14 @@
   max-width: 380px;
 }
 
+.game-over__contacts-address-phone:hover {
+  color:#CD06FF;
+}
+
+.game-over__contacts-address-mail:hover {
+  color:#CD06FF;
+}
+
 .game-over__contacts-address-mail::before{
   content: "";
   display: flex;
