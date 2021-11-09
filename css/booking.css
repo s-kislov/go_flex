@@ -170,7 +170,7 @@
   -o-appearance:none;
   height: 27px;
   width: 27px;
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
 .game-over__booking-form-set-board-game-name:focus {
@@ -192,7 +192,7 @@
   height: 27px;
   width: 27px;
   border-radius: 50%;
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
 .game-over__booking-form-set-add-name {
@@ -201,7 +201,7 @@
   -o-appearance:none;
   height: 27px;
   width: 27px;
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
 .game-over__booking-form-set-board-game-name {
@@ -248,4 +248,20 @@
   width: 33px;
   height: 33px;
   border: 1px solid #CD06FF;
+}
+
+.game-over__booking-form-set-add-name:checked {
+  border: 2px solid red;
+  z-index: 3;
+}
+
+.game-over__booking-form-set-board-game-name:checked {
+  border: 2px solid red;
+  z-index: 3;
+}
+
+.game-over__booking-form-set-console-name:checked {
+  border: 2px solid red;
+  border-radius: 50%;
+  z-index: 3;
 }
