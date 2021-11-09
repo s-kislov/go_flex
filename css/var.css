@@ -1,0 +1,12 @@
+
+.game-over__main {
+  --main-batton-color: #840AA3; 
+}
+
+.game-over__booking {
+  --booking-border-color: #CD06FF ;
+}
+
+.game-over__footer {
+  --contact-action-color: #CD06FF ;
+}

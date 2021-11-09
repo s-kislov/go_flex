@@ -55,11 +55,11 @@
 }
 
 .game-over__contacts-address-phone:hover {
-  color:#CD06FF;
+  color: var(--contact-action-color);
 }
 
 .game-over__contacts-address-mail:hover {
-  color:#CD06FF;
+  color: var(--contact-action-color);
 }
 
 .game-over__contacts-address-mail::before{
@@ -95,8 +95,8 @@
 }
 
 .game-over__contacts-social-insta>a>img:active {
-  background-color: #CD06FF;
-  border: 1px solid #CD06FF;
+  background-color: var(--contact-action-color);
+  border: 1px solid var(--contact-action-color);
 }
 
 .game-over__contacts-social-insta>a>img:focus {
@@ -110,14 +110,14 @@
 }
 
 .game-over__contacts-social-vk>a>img:active {
-  background-color: #CD06FF;
-  border: 1px solid #CD06FF;
+  background-color: var(--contact-action-color);
+  border: 1px solid var(--contact-action-color);
 }
 
 .game-over__contacts-social-vk>a>img:focus {
   background: #EADEED;
   outline: none;
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--contact-action-color);
 }
 
 .game-over__contacts-social-fb>a>img:hover {
@@ -126,14 +126,14 @@
 }
 
 .game-over__contacts-social-fb>a>img:active {
-  background-color: #CD06FF;
-  border: 1px solid #CD06FF;
+  background-color: var(--contact-action-color);
+  border: 1px solid var(--contact-action-color);
 }
 
 .game-over__contacts-social-fb>a>img:focus {
   background: #EADEED;
   outline: none;
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--contact-action-color);
 }
 
 .game-over__contacts-social-tg>a>img:hover {
@@ -142,14 +142,14 @@
 }
 
 .game-over__contacts-social-tg>a>img:active {
-  background-color: #CD06FF;
-  border: 1px solid #CD06FF;
+  background-color: var(--contact-action-color);
+  border: 1px solid var(--contact-action-color);
 }
 
 .game-over__contacts-social-tg>a>img:focus {
   background: #EADEED;
   outline: none;
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--contact-action-color);
 }
 
 .game-over__contacts-social-insta>a:hover {

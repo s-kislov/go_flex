@@ -82,8 +82,8 @@ container__main-banner {
 .game-over__main-banner-button{
   display: flex;
   justify-content: center;
-  background: #6C0287;
-  border: 3px solid #6C0287;
+  background: var(--main-batton-color);
+  border: 3px solid var(--main-batton-color);
   border-radius: 10px;
   font-size: 1.3em;
   font-weight: 700;
@@ -95,13 +95,13 @@ container__main-banner {
 
 
 .game-over__main-banner-button:hover, .game-over__main-banner-button:focus {
-  background-color: #840AA3;
-  border-color: #840AA3;
+  background-color: var(--main-batton-color);
+  border-color: var(--main-batton-color);
 }
 
 .game-over__main-banner-button:active {
-  background-color: #640AA3;
-  border-color: #640AA3;
+  background-color: var(--main-batton-color);
+  border-color: var(--main-batton-color);
 }
 
 .game-over__main-banner-down {

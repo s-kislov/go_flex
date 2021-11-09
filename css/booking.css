@@ -160,7 +160,7 @@
 
 .game-over__booking-form-date-choose-item:focus {
   background: #FFFFFF;
-  border: 2px solid #CD06FF;
+  border: 2px solid var(--booking-border-color);
   outline: none;
 }
 
@@ -174,15 +174,15 @@
 }
 
 .game-over__booking-form-set-board-game-name:focus {
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--booking-border-color);
 }
 
 .game-over__booking-form-set-console-name:focus {
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--booking-border-color);
 }
 
 .game-over__booking-form-set-add-name:focus {
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--booking-border-color);
 }
 
 .game-over__booking-form-set-console-name {
@@ -226,7 +226,7 @@
   left: -4px;
   width: 33px;
   height: 33px;
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--booking-border-color);
 }
 
 .game-over__booking-form-set-console-name:focus::before {
@@ -236,7 +236,7 @@
   left: -4px;
   width: 33px;
   height: 33px;
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--booking-border-color);
   border-radius: 50%;
 }
 
@@ -247,7 +247,7 @@
   left: -4px;
   width: 33px;
   height: 33px;
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--booking-border-color);
 }
 
 .game-over__booking-form-set-add-name:checked {
